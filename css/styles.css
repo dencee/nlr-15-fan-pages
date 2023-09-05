@@ -5,47 +5,10 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  background: rgb(238,174,202);
-  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  font-size: 1.2rem;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-header {
-  text-align: center;
-}
-
-h1 {
-  font-family: 'Kablammo', cursive;
-  font-size: 6rem;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.card {
-  width: 400px;
-  margin: 20px;
-}
-
-.card-header{
-  background: rgb(34,193,195);
-  background: linear-gradient(27deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 69%);
-}
-
-.btn {
-  width: 50%;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-.fan-page-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  min-height: 100vh;
+  background-color: seashell;
 }
 
 footer {
-  background-color: darksalmon;
-  text-align: center;
+  background-color: gainsboro;
 }
