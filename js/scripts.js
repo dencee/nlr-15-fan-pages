@@ -8,6 +8,9 @@ studentFanPageUrls.set('Jose Reveles', "https://jrev66.github.io/fan-page/");
 studentFanPageUrls.set('Connor Finnegan', "https://finneg23.github.io/fan-page/");
 studentFanPageUrls.set('Maryam Mian', "https://mianms.github.io/fan-page/");
 studentFanPageUrls.set('Jay Smith', "https://jaysmith413.github.io/fan-page/");
+studentFanPageUrls.set('Brock Lavergne', "https://brocklavergne.github.io/simple-aggie-site/");
+studentFanPageUrls.set('Jessie Le', "https://jessietle.github.io/fan-page/");
+
 
 window.addEventListener('DOMContentLoaded', event => {
 
