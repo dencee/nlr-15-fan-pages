@@ -1,3 +1,80 @@
 span {
   color: purple;
 }
+body{
+  font-size: 16px;  
+  font-family: 'Oceana', sans-serif;
+  color:white;    
+  min-height: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,70,1) 25%, rgba(28,181,224,1) 100%);
+  background-repeat: repeat-x;
+  background-attachment:fixed;
+
+}
+
+header{  
+  margin: 20px 0px 20px 0px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;  
+  text-transform:uppercase;  
+  
+}
+h1{
+  font-family: 'Albrega Changes', sans-serif;
+  /* font-family: 'OCEAN', sans-serif; */  
+  font-weight: bolder; 
+}
+
+main{  
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;  
+  flex-wrap: wrap;    
+ 
+  
+}
+footer{
+  max-height:5vh;  
+  text-align: center;
+  margin: 0;
+  background-color: rgba(0,0,0,0);
+  font-family: 'oceana', sans-serif;
+  font-size: 3rem;
+}
+.card {
+  width: 400px;
+  margin: 20px;
+  background: rgb(161, 194, 255);
+}
+.card-header{
+  background: rgb(4, 1, 160);
+  text-align: center;
+  color:white;
+  font-family: 'OCEAN', sans-serif;
+  /* font-size: 2.2rem; */
+  font-weight:300;
+}
+
+.btn {
+  font-size: 1.5rem;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: 'OCEAN', sans-serif;
+  background-color:rgb(49, 1, 160)
+  
+}
+.fan-page-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+@media screen and (max-width:540px) {
+  main{
+    flex-direction: column;
+    width: 100vw;
+  }
+}
