@@ -10,7 +10,7 @@ studentFanPageUrls.set('Maryam Mian', "https://mianms.github.io/fan-page/");
 studentFanPageUrls.set('Jay Smith', "https://jaysmith413.github.io/fan-page/");
 studentFanPageUrls.set('Brock Lavergne', "https://brocklavergne.github.io/simple-aggie-site/");
 studentFanPageUrls.set('Jessie Le', "https://jessietle.github.io/fan-page/");
-
+studentFanPageUrls.set('Jessie Le', "https://alejandrolopeztrs.github.io/famous-frenchies-page/");
 
 window.addEventListener('DOMContentLoaded', event => {
 
