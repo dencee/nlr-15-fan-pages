@@ -1,32 +1,37 @@
-span {
-  color: purple;
+header h1 span {
+  color: purple;  
 }
+#kraken{
+color: purple;
+display: inline;
+font-family: 'Giants of the Sea', sans-serif;
+font-size: 8rem;
+margin-right: 20px;
+padding-bottom: 75px;
+}
+
 body{
-  font-size: 16px;  
-  font-family: 'Oceana', sans-serif;
+  font-size: 16px;    
   color:white;    
   min-height: 100%;
   background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,70,1) 25%, rgba(28,181,224,1) 100%);
   background-repeat: repeat-x;
   background-attachment:fixed;
-
 }
 
 header{  
   margin: 20px 0px 20px 0px;
   display: flex;  
   justify-content: center;
-  align-items: center;  
+  align-items: center; 
+}
+h1{  
   text-transform:uppercase;  
-  
+  font-family: 'Albrega Changes', sans-serif;   
+  font-weight: bolder;
+  display: inline; 
 }
-h1{
-  font-family: 'Albrega Changes', sans-serif;
-  /* font-family: 'OCEAN', sans-serif; */  
-  font-weight: bolder; 
-}
-
 main{  
   display: flex;
   justify-content: space-around;
@@ -38,11 +43,23 @@ main{
 footer{
   max-height:5vh;  
   text-align: center;
-  margin: 0;
-  background-color: rgba(0,0,0,0);
-  font-family: 'oceana', sans-serif;
+  margin: 0px;
+  background-color: rgba(0,0,0,0);  
+  font-family: 'Oceana', sans-serif;
   font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
 }
+footer p{
+  margin:0px;
+}
+footer span{
+  margin:0px 20px 0px 20px;
+  font-family: 'Ocean_Iacy', sans-serif;                                                
+}
+
 .card {
   width: 400px;
   margin: 20px;
@@ -52,8 +69,7 @@ footer{
   background: rgb(4, 1, 160);
   text-align: center;
   color:white;
-  font-family: 'OCEAN', sans-serif;
-  /* font-size: 2.2rem; */
+  font-family: 'OCEAN', sans-serif;  
   font-weight:300;
 }
 
@@ -61,11 +77,11 @@ footer{
   font-size: 1.5rem;
   width: 50%;
   margin: auto;
-  margin-bottom: 10px;
-  font-family: 'OCEAN', sans-serif;
-  background-color:rgb(49, 1, 160)
-  
+  margin-bottom: 10px;  
+  background-color:rgb(49, 1, 160);
+  font-family: 'OCEAN', sans-serif;  
 }
+
 .fan-page-cards {
   display: flex;
   flex-wrap: wrap;
@@ -75,6 +91,22 @@ footer{
 @media screen and (max-width:540px) {
   main{
     flex-direction: column;
-    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 100vw; */
   }
+  .card {
+    width: 100vw;
+    margin: 10px 3.5vw 10px 3.5vw;
+    flex-wrap: nowrap;
+  }
+  
+  header{
+    text-align: center;
+  }
+  footer span{
+    display: none;
+  } 
+
+
 }
